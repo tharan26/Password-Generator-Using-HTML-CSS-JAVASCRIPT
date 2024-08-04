@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lekton:ital,wght@0,400;0,700;1,400&family=Montserrat&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">   
+        <form action="">
+                <div class="sign"><legend >SIGN UP</legend></div>
+                <div class="mail"><input type="email" placeholder="Email ID" name="Mail" id="email"></div>
+                <div class="pass"><input type="password" placeholder="Password" name="password" id="password" maxlength="8" onclick="showGenerator()">
+                    <i class="fa fa-eye" id="togglePassword" onclick="togglePasswordVisibility()"></i>
+                </div>
+                <div class="check"><input type="checkbox" name="check" id="rm">
+                <label for="rm">Remember Me</label>
+                <div class="login1"><button type="button" onclick="generate()">Get In</button></div>
+                <div class="sign1"><small>or sign in with</small></div>
+                <div class="icons"><i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-google-plus"></i>
+                <i class="fa-brands fa-square-x-twitter"></i></div>
+        </form>
+</div>
+</body>
+</html>

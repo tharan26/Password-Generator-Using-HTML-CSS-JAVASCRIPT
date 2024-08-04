@@ -1,0 +1,201 @@
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .lekton-regular {
+    font-family: "Lekton", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .lekton-bold {
+    font-family: "Lekton", monospace;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .lekton-regular-italic {
+    font-family: "Lekton", monospace;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+body{
+    font-family: "Montserrat", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: #83c5be;
+}
+
+.container{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+}
+
+form{
+    font-family: "Lekton", monospace;
+    border: 2px transparent;
+    border-radius: 5px;
+    height: 24rem;
+    width: 25rem;
+    padding: 20px;
+    box-shadow: 0.5px 0.5px 8px #808080;
+    background-color: #006d77;
+}
+
+.sign{
+    font-weight: 700;
+    font-style: normal;
+    padding-top: 5px;
+    color: #edf6f9;
+    text-align: center;
+    font-size: large;
+}
+  
+.mail{
+    padding-top: 20px;
+}
+
+.mail input{
+    margin-left: 30px;
+    font-family: "Lekton", monospace;
+    font-weight: 900;
+    border: 1px solid #83c5be;
+    border-radius: 5px;
+    width: 20rem;
+    padding: 8px;
+}
+
+.mail input:focus{
+    outline: none;
+}
+
+.pass{
+    padding-top: 25px;
+}
+
+.pass input{
+    margin-left: 30px;
+    font-weight: 900;
+    font-family: "Lekton", monospace;
+    border: 1px solid #83c5be;
+    border-radius: 5px;
+    width: 20rem;
+    padding: 8px;
+}
+
+.pass input:focus{
+    outline: none;
+}
+
+.check{
+  padding-left: 10px;
+    padding-top: 25px;
+}
+
+#rm{
+    padding-top: 25px;
+    margin-left: 23px;
+}
+
+label{
+    color: white;
+}
+
+.fp{
+  text-decoration: none;
+  padding-left: 150px;
+}
+
+.login1{
+    padding-top: 25px;
+    text-align: center;
+
+}
+
+.login1 button{
+    width: 20rem;
+    height: 30px;
+    cursor: pointer;
+    font-size: medium;
+    font-family: "Lekton", monospace;
+    font-weight: 700;
+    font-style: normal;
+    background-color: #83c5be;
+    color: #006d77;
+    border-radius: 5px;
+    border: none;
+}
+
+.login1 button:hover{
+    background-color: white;
+    color: #83c5be;
+    border:1px solid #83c5be;
+    font-size: medium;
+    font-family: "Lekton", monospace;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+.sign1{
+    padding-top: 25px;
+    text-align: center;
+    position: relative;
+    color: white;
+
+}
+
+.sign1::before{
+    content: "";
+    display: block;
+    width: 130px;
+    height: 1px;
+    background: white;
+    left: 0;
+    top: 2.5rem;
+    position: absolute;
+}
+
+.sign1::after{
+    content: "";
+    display: block;
+    width: 130px;
+    height: 1px;
+    background: white;
+    right: 0;
+    top: 2.5rem;
+    position: absolute;
+}
+.icons
+{
+    text-align: center;
+    padding-top: 10px;
+    color: #83c5be;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.icons i{
+    padding: 10px;
+}
+
+#togglePassword {
+    position: relative;
+    width: fit-content;
+    color: #83c5be;
+    cursor: pointer;
+}
+
